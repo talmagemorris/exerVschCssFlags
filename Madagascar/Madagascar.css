@@ -1,0 +1,29 @@
+.container {
+    border: 1px solid black;
+    display: inline-grid;
+    grid-template-columns: 173px 173px 173px;
+    grid-template-rows: 163px 163px;
+}
+
+.c1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #FFFFFF;
+}
+.c2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #FC3E32;
+
+}
+.c3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #007E39;
+}
